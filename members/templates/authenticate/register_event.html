@@ -15,12 +15,11 @@
 			<form action="" method="POST">
 				{% csrf_token %}
 				
-				
-				{{ form.customer }}
-				{{ form.event_name }}
-				
-				
 				<h2>Fill the form below.</h2>
+				<p>
+					{{ form.customer }}
+					{{ form.event_name }}
+				</p>
 				<br>
 				<p>
 				{{ form.name.label }}

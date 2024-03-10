@@ -14,4 +14,4 @@ urlpatterns = [
 # Configure Admin Titles
 admin.site.site_header = "JDEV Administration Page"
 admin.site.site_title = "JDEV-Admin"
-admin.site.index_title = "Welcome To The Addmin Area..."
+admin.site.index_title = "Welcome To The Admin Area..."
